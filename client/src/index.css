@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.menu-card {
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.menu-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.cart-item-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.order-summary {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Admin styles */
+.admin-nav {
+  background-color: #343a40;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.admin-nav a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.admin-nav a:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+.admin-nav a.active {
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+/* Food categories */
+.category-badge {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.category-badge.active {
+  background-color: #28a745 !important;
+}
+
+/* Hero section */
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(to right, #ff7e5f, #feb47b);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+}
